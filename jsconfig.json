@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"target": "es6",
+		"baseUrl": ".",
+		"paths": {
+			"@middleware/*": ["./middleware/*"]
+		}
+	},
+	"exclude": ["node_modules"],
+	"include": ["src/**/*"]
+}

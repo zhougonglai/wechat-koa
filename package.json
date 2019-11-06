@@ -1,0 +1,25 @@
+{
+	"name": "wechat_koa",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "PORT=3333 nodemon --inspect index.js",
+		"dev": "nodemon --inspect index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"co-wechat": "^2.4.0",
+		"co-wechat-api": "^3.10.0",
+		"co-wechat-oauth": "^2.0.1",
+		"crypto-js": "^3.1.9-1",
+		"koa": "^2.11.0",
+		"koa-bodyparser": "^3.2.0",
+		"koa-router": "^7.4.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.4"
+	}
+}
